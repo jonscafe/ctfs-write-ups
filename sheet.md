@@ -1,5 +1,6 @@
 ### General
 - **Cyber Chef**: [CyberChef](https://gchq.github.io/CyberChef/)
+- **dCode**: [dCode](https://www.dcode.fr/)
 
 ### Web Security Notes
 
