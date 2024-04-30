@@ -5,15 +5,15 @@
 ### Web Security Notes
 
 - **S3Scanner (A tool to find open S3 buckets in AWS or other cloud providers)**: [S3Scanner](https://github.com/sa7mon/S3Scanner)
-- **SQLi Cheat Sheet**:
-  - [PortSwigger SQL Injection Cheat Sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet)
-  - [payloadbox SQLi Cheat Sheet](https://github.com/payloadbox/sql-injection-payload-list)
-- **XSS Cheat Sheet**:
-  - [payloadbox XSS Cheat Sheet](https://github.com/payloadbox/xss-payload-list)
+- **SQLi Payload**:
+  - [PortSwigger SQL Injection Payload](https://portswigger.net/web-security/sql-injection/cheat-sheet)
+  - [payloadbox SQLi Payload](https://github.com/payloadbox/sql-injection-payload-list)
+- **XSS Payload**:
+  - [payloadbox XSS Payload](https://github.com/payloadbox/xss-payload-list)
 - **XXE Cheat Sheet**:
-  - [payloadbox XXE Cheat Sheet](https://github.com/payloadbox/xxe-injection-payload-list)
-- **RFI LFI Cheat Sheet**:
-  - [payloadbox RFI LFI Cheat Sheet](https://github.com/payloadbox/rfi-lfi-payload-list)
+  - [payloadbox XXE Payload](https://github.com/payloadbox/xxe-injection-payload-list)
+- **RFI LFI Payload**:
+  - [payloadbox RFI LFI Payload](https://github.com/payloadbox/rfi-lfi-payload-list)
 - **SSTI Payloads**:
   - [PayloadBox SSTI Payloads](https://github.com/payloadbox/ssti-payloads)
   - [HackTricks SSTI Guide](https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection)
