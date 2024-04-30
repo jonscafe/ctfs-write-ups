@@ -21,6 +21,8 @@
   - [AperiSolve Image Forensics](https://aperisolve.com/)
 - **Steganography Tools**:
   - [StegOnline for LSB and MSB Analysis](https://georgeom.net/StegOnline/image)
+  - [Universal Radio Hacker](https://github.com/jopohl/urh)
+  - [Adaptive Morse Decoder](https://morsecode.world/international/decoder/audio-decoder-adaptive.html)
 - **PCAP Analysis**:
   - [APackets Online PCAP Analysis](https://apackets.com/)
 - **DFIR (Digital Forensics and Incident Response)** Tools:
