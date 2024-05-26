@@ -44,6 +44,11 @@
   - [ArtiFast Forensic Tools](https://forensafe.com/free.html)
 - **Powerful Online Decompiler**: [Decompiler.com](https://decompiler.com/)
 - **PNG File Chunk Inspection**: [PNG File Chunk Inspector](https://www.nayuki.io/page/png-file-chunk-inspector)
+- **USB Forensics**:
+  - [Human Interface Devices (HID) Data](https://wiki.osdev.org/USB_Human_Interface_Devices)
+  - [USB Keystrokes](https://book.hacktricks.xyz/generic-methodologies-and-resources/basic-forensic-methodology/pcap-inspection/usb-keystrokes)
+  - [RFID Tag](https://openrepository.aut.ac.nz/handle/10292/1348)
+  - [Android Bluetooth](https://forensafe.com/blogs/Android_Bluetooth.html)
 
 ### OSINT (Open-Source Intelligence) Notes
 
