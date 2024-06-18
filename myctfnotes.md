@@ -49,6 +49,8 @@
   - [USB Keystrokes](https://book.hacktricks.xyz/generic-methodologies-and-resources/basic-forensic-methodology/pcap-inspection/usb-keystrokes)
   - [RFID Tag](https://openrepository.aut.ac.nz/handle/10292/1348)
   - [Android Bluetooth](https://forensafe.com/blogs/Android_Bluetooth.html)
+  - [USB Descriptor and Request Parser](https://eleccelerator.com/usbdescreqparser/)
+  - [USB HID Usage Tables](https://www.usb.org/sites/default/files/documents/hut1_12v2.pdf)
 
 ### OSINT (Open-Source Intelligence) Notes
 
