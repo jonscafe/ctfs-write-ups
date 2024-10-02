@@ -22,3 +22,4 @@
 | **Space Heroes CTF 2024** | 2nd Place | SNI |
 | **Technofair 11 2024 - Gunadarma** | Top 10 | KEITO |
 | **COMPFEST 16 Qualification - University of Indonesia** | Rank 6 | SNI (FLAKEITO) |
+| **Hacktoday 2024 Qualification - IPB University** | Rank 9 | KEITO |
