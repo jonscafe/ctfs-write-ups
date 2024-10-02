@@ -15,7 +15,7 @@
 | **FindIT 2024 Qualification** | Rank 11      |
 | **Hacktheon Sejong 2024 Qualification** | Rank 12 |
 | **HTB Cyber Apocalypse 2024** | Top 60 |
-| **IFEST 2024 - Padjajaran University** | Rank 3 |
+| **IFEST 2024 - Padjajaran University** | 3rd Place |
 | **Jersey CTF 2024** | lupa |
 | **KMIPN VI Final - 2024** | 1st Place |
 | **Sandiego CTF 2024** | lupa |
