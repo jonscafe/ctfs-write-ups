@@ -21,3 +21,4 @@
 | **Sandiego CTF 2024** | lupa | SNI |
 | **Space Heroes CTF 2024** | 2nd Place | SNI |
 | **Technofair 11 2024 - Gunadarma** | Top 10 | KEITO |
+| **COMPFEST 16 Qualification - University of Indonesia** | Rank 6 | SNI (FLAKEITO) |
