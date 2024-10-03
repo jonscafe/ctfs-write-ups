@@ -11,6 +11,7 @@
 | Event | Rank | Team |
 |------------------------------|--------------|--------------|
 | **[HTB University 2023](https://github.com/jonscafe/ctfs-write-ups/tree/main/HTB_Univ2023)** | Participant | PoltekSSN |
+| **[Cyberyolk 2023](https://github.com/jonscafe/ctfs-write-ups/tree/main/cyberyolk-2023)** | Only REV | Individual |
 | **[FindIT 2024 Qualification](https://github.com/jonscafe/ctfs-write-ups/tree/main/findit-2024-quals)** | Rank 11 | IDK |
 | **[FindIT 2024 Final](https://github.com/jonscafe/ctfs-write-ups/tree/main/findit-2024-final)** | Top 10 | IDK |
 | **[Hacktheon Sejong 2024 Qualification](https://github.com/jonscafe/ctfs-write-ups/tree/main/hacktheon-2024-quals)** | Rank 12 | No_Geming_b0z |
