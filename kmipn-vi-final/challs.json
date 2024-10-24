@@ -1,0 +1,156 @@
+{
+    "data": {
+        "Binary Exploitation": [
+            {
+                "category": "Binary Exploitation",
+                "description": "Classic challenge.. this should be easy.. right? right?\r\n\r\nAuthor: Vaints",
+                "files": [
+                    "/files/405eba23e639458cc15b2f23a7055a80/chall?token=eyJ1c2VyX2lkIjo1MywidGVhbV9pZCI6MTIsImZpbGVfaWQiOjExfQ.ZoPN_A.NPk77f5-KNk4nlsLgnjf9e4I9fw"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 6,
+                "name": "Bad Shell",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "Binary Exploitation",
+                "description": "There's a leak in our feedback BAAS(Binary as a Service). However the binary still working properly, even tho the file descriptor is closed.\r\n\r\nAuthor: Vaints",
+                "files": [
+                    "/files/608c817b03e4caca83a092c2078ee508/release.zip?token=eyJ1c2VyX2lkIjo1MywidGVhbV9pZCI6MTIsImZpbGVfaWQiOjEyfQ.ZoPN_A.nnSwg3neEMln8-6uo3-1C_DreFA"
+                ],
+                "hints": [
+                    "* You can override the heap pointer, so that the program won't free (delete) your payload.\n* Ever heard of csu? maybe you can use it to control some registers"
+                ],
+                "id": 9,
+                "name": "Gets The Flag Out",
+                "points": 500,
+                "solves": 0
+            }
+        ],
+        "Cryptography": [
+            {
+                "category": "Cryptography",
+                "description": "ayok ayok yang mau tanda tangan\r\n\r\nbisakah kamu membuat tanda tangan palsu?\r\n\r\nAuthor: AnYujin",
+                "files": [
+                    "/files/507da20b1504629d99add097ef9a5d01/pailier.py?token=eyJ1c2VyX2lkIjo1MywidGVhbV9pZCI6MTIsImZpbGVfaWQiOjE2fQ.ZoPN_A.56JksuOS8zZCl5oJCytHMjiHsd4",
+                    "/files/73608cb83bf0253959459dddf2d1cabe/soal.py?token=eyJ1c2VyX2lkIjo1MywidGVhbV9pZCI6MTIsImZpbGVfaWQiOjE3fQ.ZoPN_A.shnjNSjAZ1_nisrdiBZpCRDI_8Y"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 16,
+                "name": "Pal Signer",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "Cryptography",
+                "description": "Alat enkripsi underrated yang TERBUKTI aman dari serangan hengker hengker jahat yang meiliki intensi merusak!!\r\n\r\nbenarkah begitu? apakah ada kelemahan dalam enkripsi ini yang sudah banyak orang tahu?\r\n\r\nAuthor: AnYujin",
+                "files": [
+                    "/files/befde52e8992ba22e8aa041c9c4105cf/rc4.py?token=eyJ1c2VyX2lkIjo1MywidGVhbV9pZCI6MTIsImZpbGVfaWQiOjE0fQ.ZoPN_A.DkOsjE7XRQEXMp4-FrrQ6pADXqk",
+                    "/files/229edef5adfcd8b76856a7aa8e146252/soal.py?token=eyJ1c2VyX2lkIjo1MywidGVhbV9pZCI6MTIsImZpbGVfaWQiOjE1fQ.ZoPN_A.yQo1QpQ3uucBvcKyqLhcphr54Yg"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 14,
+                "name": "Reality Club",
+                "points": 496,
+                "solves": 2
+            }
+        ],
+        "Forensic": [
+            {
+                "category": "Forensic",
+                "description": "ini hanya gambar simple sesuai judul, cukup pahami saja",
+                "files": [
+                    "/files/9b3528dcac0d53c3988b1033251a79f0/release.png?token=eyJ1c2VyX2lkIjo1MywidGVhbV9pZCI6MTIsImZpbGVfaWQiOjl9.ZoPN_A.oz8zFdoN6L88jIrWH7-sdHu2Sqo"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 3,
+                "name": "just simple image",
+                "points": 500,
+                "solves": 1
+            },
+            {
+                "category": "Forensic",
+                "description": "semalam network log dikampus ku lumayan padat, bisa bantu di check ?",
+                "files": [
+                    "/files/28787afea6e16cd3aba653aca0fe6d48/kampus_1.pcapng?token=eyJ1c2VyX2lkIjo1MywidGVhbV9pZCI6MTIsImZpbGVfaWQiOjE5fQ.ZoPN_A.tJikAYsdJlEh8aMayJL6HVBOQA0"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 2,
+                "name": "campus record",
+                "points": 500,
+                "solves": 0
+            }
+        ],
+        "Reverse Engineering": [
+            {
+                "category": "Reverse Engineering",
+                "description": "An instance on another planet has just been cyber attacked, help them recover their imporant data.\r\n\r\n*Highly recommended to create an empty directory when debugging it\r\n\r\nAuthor: Vaints",
+                "files": [
+                    "/files/10bb359d46235d31613d7ac260682bb6/release.zip?token=eyJ1c2VyX2lkIjo1MywidGVhbV9pZCI6MTIsImZpbGVfaWQiOjEzfQ.ZoPN_Q.X6l8iPAnn-D4nHx82N6rhqWQsgs"
+                ],
+                "hints": [
+                    "Have you tried to decode the base64? that seems to be the core of the attack"
+                ],
+                "id": 11,
+                "name": "Clown",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "Reverse Engineering",
+                "description": "KUPERSEMBAHKAN SISTEM ENKRIPSI MUTAKHIR YANG DAPAT MEMPORAK-PORAKKAN KETAHANAN KRIPTOGRAFI REPUBLIK ISEKAI\r\n\r\nAuthor: AnYujin",
+                "files": [
+                    "/files/8929c10229aeda81c6f3baaf8b111b05/chall?token=eyJ1c2VyX2lkIjo1MywidGVhbV9pZCI6MTIsImZpbGVfaWQiOjIyfQ.ZoPN_Q.UWGl30OX7OdlvoU7TwECMMCXt6s"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 17,
+                "name": "Encryptinator",
+                "points": 500,
+                "solves": 0
+            }
+        ],
+        "Web Exploitation": [
+            {
+                "category": "Web Exploitation",
+                "description": "NO NO NO...\r\n\r\nTak selamanya \"content secure sumber\" yg terlihat aman benar\u00b2 aman\r\n\r\nhttp://157.173.204.136:7132\r\n\r\nAuthor: fanshh",
+                "files": [
+                    "/files/5e71d81703fe7d3ba547a40b6c8fbc0b/chall.zip?token=eyJ1c2VyX2lkIjo1MywidGVhbV9pZCI6MTIsImZpbGVfaWQiOjI2fQ.ZoPN_Q.E5NTyFcgxSO96ma9UdnfAp3KZ_k"
+                ],
+                "hints": [
+                    "flag terdapat 2 part,\n\nhint\ncontent security policy and jwt"
+                ],
+                "id": 12,
+                "name": "quotes",
+                "points": 500,
+                "solves": 0
+            },
+            {
+                "category": "Web Exploitation",
+                "description": "temen ku baru belajar bikin form upload, sepertinya tidak beres\r\n\r\nhttp://157.173.204.136:8089/",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 20,
+                "name": "just simple upload",
+                "points": 500,
+                "solves": 0
+            }
+        ]
+    },
+    "title": "FINAL KMIPN 2024 POLITEKNIK NEGERI JAKARTA",
+    "url": "http://ctfd-kmipn.pnj.ac.id"
+}
