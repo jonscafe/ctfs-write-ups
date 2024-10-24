@@ -1,7 +1,7 @@
-## Kompetisi Mahasiswa Informatika Politeknik Nasional (KMIPN) VI 2024, Cybersecurity Finals - Politeknik Negeri Jakarta
-## played as KEITO (w/ itoid)
+### Kompetisi Mahasiswa Informatika Politeknik Nasional (KMIPN) VI 2024, Cybersecurity Finals - Politeknik Negeri Jakarta
+- played as KEITO (w/ itoid)
 
-# FINAL KMIPN 2024 POLITEKNIK NEGERI JAKARTA Challenges Archive
+### FINAL KMIPN 2024 POLITEKNIK NEGERI JAKARTA Challenges Archive
 
 | Category             | Challenge Name       | Description                                                                                                            | Points | Solves | Author  |
 |----------------------|----------------------|------------------------------------------------------------------------------------------------------------------------|--------|--------|---------|
