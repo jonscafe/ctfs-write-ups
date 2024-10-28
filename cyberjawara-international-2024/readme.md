@@ -205,3 +205,233 @@ flag = parse_and_order_flag(file_path)
 print("Recovered flag:", flag)
 ```
 ![Screenshot 2024-10-27 130752](https://hackmd.io/_uploads/BJvADY3lkg.png)
+
+## P2PWannabe
+ ![image](https://github.com/user-attachments/assets/fc25ef6f-fafc-4050-a972-b6d8f65410c3)
+
+The chall says its some kind of custom protocol made by combining P2P and multiplex. So basically its just transferred data but uses some kind of channeling. But here we dont know how it customed so we need to analyze the transferred packet.
+![image](https://github.com/user-attachments/assets/f6aad607-e2db-4f83-a0ff-2ddb5682369e)
+
+If we follow the tcp stream it will gives us some kind of so many raw data. I noticed that it was the packets that transferred but we need to separate it by its channels and see how it transferred the data.
+ ![image](https://github.com/user-attachments/assets/2aa0d1fc-e23c-4087-ac1b-06fd4e39049e)
+
+Extracts the only transferred data, and i examine it with notepad++
+I examine it with hxd, upon analyzing it i notices that it was compressed using zlib compression method 
+![image](https://github.com/user-attachments/assets/713b7b81-b9ac-4f6f-8899-39b2c5b9d060)
+
+You can notice from the file header with 78 9c magic byte
+(https://stackoverflow.com/questions/9050260/what-does-a-zlib-header-look-like)
+
+So we need to separate the files and maybe try to learn what is the hexes before the header magic bytes about
+ Upon examining, we can saw before the magic byte around 8-10 bytes that are maybe a checksum and index
+ ![image](https://github.com/user-attachments/assets/a934a501-ed8d-4452-a620-b0f829cffef9)
+
+We can try a craft a script to tidy up the file based on the index with that assumption
+`decode.py`
+```
+import re
+import os
+
+def read_and_split_file(input_file):
+    # Read hex data from the input file
+    data = open(input_file, 'rb').read().hex()
+   
+    # Pattern to split by '00010000' + 4 hex chars (index)
+    pattern = r'00010000([0-9a-fA-F]{4})'
+    segments = re.split(pattern, data)
+   
+    # The split pattern will give alternating matches of indices and data segments
+    # We need only the segments (odd indices), and indices (even indices starting from 1)
+    indices = [int(segments[i], 16) for i in range(1, len(segments), 2)]
+    data_segments = [segments[i] for i in range(2, len(segments), 2)]
+   
+    # Combine and sort the segments by their index
+    indexed_data = sorted(zip(indices, data_segments), key=lambda x: x[0])
+    return indexed_data
+
+def save_segments(indexed_data, output_dir):
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+       
+    for index, segment in indexed_data:
+        # Save each segment as hex in a new file based on index order
+        file_path = os.path.join(output_dir, f'segment_{index}.txt')
+        with open(file_path, 'w') as f:
+            f.write(segment)
+   
+    print(f"Segments saved in {output_dir}")
+
+# Run the functions
+input_file = 'raw.dat'
+output_dir = 'output_segments'
+indexed_data = read_and_split_file(input_file)
+save_segments(indexed_data, output_dir)
+```
+![image](https://github.com/user-attachments/assets/cfb259d0-942f-42ba-8314-638d9a791658)
+
+We try to parse it, and yes, we are correct, we found a png in the zlib compressed data.
+Now we can try to extract it all
+
+```
+import os
+import zlib
+
+def decompress_hex_files(input_dir, output_dir='flag'):
+    # Ensure the output directory exists
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+   
+    # Iterate over each .txt file in the input directory
+    for filename in os.listdir(input_dir):
+        if filename.endswith('.txt'):
+            file_path = os.path.join(input_dir, filename)
+            # Read hex data from the file
+            with open(file_path, 'r') as f:
+                hex_data = f.read().strip()
+           
+            try:
+                # Convert hex to binary data
+                binary_data = bytes.fromhex(hex_data)
+                # Decompress using zlib
+                decompressed_data = zlib.decompress(binary_data)
+                # Define output file path (use same name but .txt extension)
+                output_file_path = os.path.join(output_dir, f"{os.path.splitext(filename)[0]}_decompressed.png")
+                # Write decompressed data to output file
+                with open(output_file_path, 'wb') as out_f:
+                    out_f.write(decompressed_data)
+               
+                print(f"Decompressed and saved: {output_file_path}")
+           
+            except zlib.error as e:
+                print(f"Error decompressing {filename}: {e}")
+            except ValueError as e:
+                print(f"Error processing {filename} (invalid hex?): {e}")
+
+# Run the function
+input_dir = 'output_segments'  # Replace with the path to your .txt files
+decompress_hex_files(input_dir)
+```
+ ![image](https://github.com/user-attachments/assets/e3314a51-e127-4254-ad92-11711bb69d07)
+
+Now we can convert it into texts, because its maybe a hex string.
+By calculating md5, we will determine the value to extract the string from the image
+```
+import os
+import hashlib
+import shutil
+
+def calculate_md5(file_path):
+    # Calculate MD5 hash of a file
+    hash_md5 = hashlib.md5()
+    with open(file_path, "rb") as f:
+        for chunk in iter(lambda: f.read(4096), b""):
+            hash_md5.update(chunk)
+    return hash_md5.hexdigest()
+
+def find_md5_and_copy_files(folder_path, output_file="md5_hashes.txt", copy_folder="unique_md5_files"):
+    # Dictionary to store unique MD5 hashes and filenames
+    md5_dict = {}
+
+    # Create a new folder if it doesn't exist
+    if not os.path.exists(copy_folder):
+        os.makedirs(copy_folder)
+
+    # Iterate through all PNG files in the folder
+    for filename in os.listdir(folder_path):
+        if filename.endswith(".png"):
+            file_path = os.path.join(folder_path, filename)
+           
+            # Calculate MD5 hash for the file
+            md5_hash = calculate_md5(file_path)
+           
+            # Store only the first occurrence of each unique MD5 hash
+            if md5_hash not in md5_dict:
+                md5_dict[md5_hash] = filename
+                print(f"Unique MD5 for {filename}: {md5_hash}")
+               
+                # Copy the file to the new folder
+                shutil.copy(file_path, os.path.join(copy_folder, filename))
+   
+    # Write all unique hashes and filenames to the output file
+    with open(output_file, "w") as file:
+        for md5_hash, filename in md5_dict.items():
+            file.write(f"{md5_hash} - {filename}\n")
+
+# Usage
+find_md5_and_copy_files("flag")
+```
+ ![image](https://github.com/user-attachments/assets/76c1ba6a-450f-4e1d-ae0b-a0fe90ef3e3f)
+ ![image](https://github.com/user-attachments/assets/e793ddcc-d0c2-481d-9ff2-13dfdb667d82)
+
+
+And then, we use it to map the char and print it
+`solv.py`
+
+```
+import os
+import hashlib
+import re
+
+def calculate_md5(file_path):
+    # Calculate MD5 hash of a file
+    hash_md5 = hashlib.md5()
+    with open(file_path, "rb") as f:
+        for chunk in iter(lambda: f.read(4096), b""):
+            hash_md5.update(chunk)
+    return hash_md5.hexdigest()
+
+def map_md5_and_save(folder_path, output_file="mapped_md5_results.txt"):
+    # Mapping dictionary for single-character assignment based on provided mappings
+    char_mapping = {
+        "3f1b8eb1f4800f45d520c6421e5f95a8": "5",
+        "0477802c4ee9c8a3bc07bec21cabea2e": "7",
+        "9fc4c0e3a150c2ee9b863fe594cdadb1": "6",
+        "2c2fbe0d9f8619df57b8066e7ead918f": "1",
+        "ac024a04316abb204666eb14e8316175": "e",
+        "d3d1b1ab0ddde68a1ddad681b99ecbab": "f",
+        "6fa72bf8c7f44e256fd84ed23dd38e80": "d",
+        "5c665116f130ab7e4ff92382e6e8bbd0": "b",
+        "8aa8828b3d9680689d76beb92856bcde": "8",
+        "66383e5bca6b7eb5cd0b38a7ebe02056": "4",
+        "80d3151bf7f3fb0d8eaf0ee7f00ae0ce": "9",
+        "84943ec5194aa6d8737d01f203b37f77": "3",
+        "9a8f824dd9b54653d85fa01267d8893e": "0",
+        "bf5241778a11df8ae8c74f4f5bfc3074": "2",
+        "bae8bc98d8ae81724957cfd7839f19ea": "c",
+        "08956ea8b94480aa04d1874729724e0d": "a"
+    }
+   
+    # Initialize the flag variable
+    flag = ""
+
+    # Collect PNG files in the specified folder
+    png_files = [f for f in os.listdir(folder_path) if f.endswith(".png")]
+
+    # Sort the files numerically based on the segment number
+    png_files.sort(key=lambda x: int(re.search(r'\d+', x).group()))  # Extract and convert number for sorting
+
+    # Open output file to write only the mapped results
+    with open(output_file, "w") as file:
+        # Iterate through PNG files in sorted order
+        for filename in png_files:
+            file_path = os.path.join(folder_path, filename)
+           
+            # Calculate MD5 hash for the file
+            md5_hash = calculate_md5(file_path)
+           
+            # Write only if the MD5 hash is in the predefined mapping
+            if md5_hash in char_mapping:
+                character = char_mapping[md5_hash]
+                file.write(f"{character}")
+                print(f"Unique MD5 for {filename}: {md5_hash} - {character}")
+                flag += character
+
+    # Convert the flag from hex string to ASCII
+    ascii_flag = bytes.fromhex(flag).decode('utf-8')
+    print(f"Constructed flag (ASCII): {ascii_flag}")
+
+# Usage
+map_md5_and_save("flag")
+```
+![image](https://github.com/user-attachments/assets/7dabeaeb-42d9-4d00-a197-1f142acf0e2b)
+
