@@ -1,6 +1,13 @@
 # Cyber Jawara International 2024 - Forensic Challenges
 - Played with TCP1P x SNI x MAGER
 
+## Solved Forensic Challs:
+| Name | Topic | Author |
+|------------------------------|--------------|--------------|
+| Sleeper | Incident Response | Blacowhait |
+| Prepare the Tools | PCAP | Blacowhait |
+| P2PWannabe | PCAP | Blacowhait |
+
 ## Sleeper
 <img src="https://hackmd.io/_uploads/HkFeLtneyx.png" width="300" height="300">
 
