@@ -16,8 +16,8 @@
 | **[FindIT 2024 Final](https://github.com/jonscafe/ctfs-write-ups/tree/main/findit-2024-final)** | Rank 8 | IDK |
 | **[Hacktheon Sejong 2024 Qualification](https://github.com/jonscafe/ctfs-write-ups/tree/main/hacktheon-2024-quals)** | Rank 12 | No_Geming_b0z |
 | **[HTB Cyber Apocalypse 2024](https://github.com/jonscafe/ctfs-write-ups/tree/main/htb-cyberapocalypse2024)** | Top 60 | SNI |
-| **[Jersey CTF 2024](https://github.com/jonscafe/ctfs-write-ups/tree/main/jerseyctf-2024)** | ? | SNI |
-| **[San Diego CTF 2024](https://github.com/jonscafe/ctfs-write-ups/tree/main/sandiegoctf-2024)** | ? | SNI |
+| **[Jersey CTF 2024](https://github.com/jonscafe/ctfs-write-ups/tree/main/jerseyctf-2024)** | Rank 16 | SNI |
+| **[San Diego CTF 2024](https://github.com/jonscafe/ctfs-write-ups/tree/main/sandiegoctf-2024)** | Rank 47 | SNI |
 | **[Nullcon HackIM Berlin CTF 2024](https://github.com/jonscafe/ctfs-write-ups/tree/main/nullcon-hackim-berlin-2024)** | 3rd Place | SNI |
 | **[Space Heroes CTF 2024](https://github.com/jonscafe/ctfs-write-ups/tree/main/spaceheroes-2024)** | 2nd Place | SNI |
 | **[KMIPN VI Final - 2024](https://github.com/jonscafe/ctfs-write-ups/tree/main/kmipn-vi-final)** | 1st Place | KEITO |
