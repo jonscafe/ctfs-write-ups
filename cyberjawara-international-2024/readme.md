@@ -220,10 +220,15 @@ print("Recovered flag:", flag)
 The chall says its some kind of custom protocol made by combining P2P and multiplex. So basically its just transferred data but uses some kind of channeling. But here we dont know how it customed so we need to analyze the transferred packet.
 ![image](https://github.com/user-attachments/assets/f6aad607-e2db-4f83-a0ff-2ddb5682369e)
 
-If we follow the tcp stream it will gives us some kind of so many raw data. I noticed that it was the packets that transferred but we need to separate it by its channels and see how it transferred the data.
- ![image](https://github.com/user-attachments/assets/2aa0d1fc-e23c-4087-ac1b-06fd4e39049e)
+If we follow the tcp stream it will gives us some kind of so many raw data. I noticed that it was the packets that transferred but we need to separate it by its channels and see how the data is transferred.
+- ![image](https://github.com/user-attachments/assets/2aa0d1fc-e23c-4087-ac1b-06fd4e39049e)
 
-Extracts the only transferred data, and i examine it with notepad++
+Extracts the only transferred data, only the conversation of the client to the server
+- ![image](https://github.com/user-attachments/assets/1bc7d403-59c7-4527-baef-0a7d8c9bdcfa)
+
+so you wont get this "accepted junk"
+![image](https://github.com/user-attachments/assets/af782809-2ceb-4997-a70d-74d4668850b1)
+
 I examine it with hxd, upon analyzing it i notices that it was compressed using zlib compression method 
 ![image](https://github.com/user-attachments/assets/713b7b81-b9ac-4f6f-8899-39b2c5b9d060)
 
