@@ -440,5 +440,4 @@ def map_md5_and_save(folder_path, output_file="mapped_md5_results.txt"):
 # Usage
 map_md5_and_save("flag")
 ```
-![image](https://github.com/user-attachments/assets/7dabeaeb-42d9-4d00-a197-1f142acf0e2b)
-
+![Screenshot 2024-10-27 222202](https://github.com/user-attachments/assets/8873b06f-1ec3-4606-8afd-ce9783f2c0a0)
