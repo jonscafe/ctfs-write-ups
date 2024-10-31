@@ -1,6 +1,7 @@
 # Cyber Jawara International 2024 - Forensic Challenges
 - Played with TCP1P x SNI x MAGER
-- archive: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF 
+- archive: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+- teams complete write-up: https://ctftime.org/event/2552/tasks/
 
 ## Solved Forensic Challs:
 | Name | Topic | Author |
