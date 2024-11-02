@@ -19,7 +19,7 @@
 | **[HTB Cyber Apocalypse 2024](https://github.com/jonscafe/ctfs-write-ups/tree/main/htb-cyberapocalypse2024)** | Top 60 | SNI | Solved 9/10 Forensics |
 | **[Jersey CTF 2024](https://github.com/jonscafe/ctfs-write-ups/tree/main/jerseyctf-2024)** | Rank 16 | SNI | Solved All Forensics |
 | **[San Diego CTF 2024](https://github.com/jonscafe/ctfs-write-ups/tree/main/sandiegoctf-2024)** | Rank 47 | SNI | Solved All Forensics |
-| **[Nullcon HackIM Berlin CTF 2024](https://github.com/jonscafe/ctfs-write-ups/tree/main/nullcon-hackim-berlin-2024)** | 3rd Place | SNI | - |
+| **[Nullcon HackIM Berlin CTF 2024](https://github.com/jonscafe/ctfs-write-ups/tree/main/nullcon-hackim-berlin-2024)** | 3rd Place | SNI | No Forensic, Doing Web |
 | **[Space Heroes CTF 2024](https://github.com/jonscafe/ctfs-write-ups/tree/main/spaceheroes-2024)** | 2nd Place | SNI | Solved All Forensics |
 | **[KMIPN VI Final - 2024](https://github.com/jonscafe/ctfs-write-ups/tree/main/kmipn-vi-final)** | 1st Place | KEITO | Solved All Forensics |
 | **[Technofair 11 2024 - Gunadarma](https://github.com/jonscafe/ctfs-write-ups/tree/main/technofair-11)** | Rank 5 | KEITO | Solved All Forensics |
