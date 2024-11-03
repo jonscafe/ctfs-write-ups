@@ -23,6 +23,7 @@
 | **[Space Heroes CTF 2024](https://github.com/jonscafe/ctfs-write-ups/tree/main/spaceheroes-2024)** | 2nd Place | SNI | Solved All Forensics |
 | **[KMIPN VI Final - 2024](https://github.com/jonscafe/ctfs-write-ups/tree/main/kmipn-vi-final)** | 1st Place | KEITO | Solved All Forensics |
 | **[Technofair 11 2024 - Gunadarma](https://github.com/jonscafe/ctfs-write-ups/tree/main/technofair-11)** | Rank 5 | KEITO | Solved All Forensics |
+| **[Wani CTF 2024 - Wani Hackase, Osaka University](https://github.com/jonscafe/ctfs-write-ups/tree/main/wani-ctf-2024)** | Rank 15 | SNI | Solved All Forensics |
 | **[COMPFEST 16 Qualification - University of Indonesia](https://github.com/jonscafe/ctfs-write-ups/tree/main/compfest-2024-quals)** | Rank 6 | SNI (FLAKEITO) | Solved All Forensics |
 | **[HackToday 2024 Qualification - IPB University](https://github.com/jonscafe/ctfs-write-ups/tree/main/hacktoday-2024-quals)** | Rank 9 | KEITO | Solved All Forensics |
 | **[Gemastik XVII 2024 - Qualification](https://github.com/jonscafe/ctfs-write-ups/tree/main/gemastik-2024-quals)** | Rank 8 | KEITO | - |
