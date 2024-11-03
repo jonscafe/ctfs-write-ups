@@ -30,3 +30,4 @@
 | **[IFEST 2024 - Padjajaran University](https://github.com/jonscafe/ctfs-write-ups/tree/main/ifest-2024)** | 3rd Place | SNI (FLAKEITO) | Solved All Forensics |
 | **[COMPFEST 16 Final - University of Indonesia](https://github.com/jonscafe/ctfs-write-ups/tree/main/compfest-2024-final)** | 1st Place | SNI (FLAKEITO) | Solved All Forensics |
 | **[Cyber Jawara International 2024](https://github.com/jonscafe/ctfs-write-ups/tree/main/cyberjawara-international-2024)** | 1st Place | TCP1P x SNI x MAGER | Solved All Forensics |
+| **[Cyber Jawara International 2024](https://github.com/jonscafe/ctfs-write-ups/tree/main/hology-final-2024)** | UPSOLVE | - | Solved All Forensics |
