@@ -1,13 +1,14 @@
 ## ctfs-write-ups
 - My CTF writeups
-- Individual/with my teams (SNI/No_Geming_b0z/KEITO)
-
-### My Primary Team: [SNI/Serikat Newbie Indonesia](https://serikatnewbie.me)
 - MyCTFNotes: contains cheat sheets/notes from websites
+
+## about-me
+- Student at NCCP, XX Batch, Takin Cryptographical Software Engineering field of interest on Cryptography Engineering Major
+- Usually playing with [SNI Cybersecurity Team](https://serikatnewbie.me) or with my friend [itoid](https://github.com/lightningitoid) as KEITO team
 - Mainly playing on Forensics, so you will find more write-ups on Forensic related topics
+- Also sometimes tryin to solve Rev/Web 
 
-
-## Details
+## write-up-details
 
 | Event | Rank | Team | Note |
 |------------------------------|--------------|--------------|--------------|
