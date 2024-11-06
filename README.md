@@ -22,10 +22,10 @@
 | **[Nullcon HackIM Berlin CTF 2024](/nullcon-hackim-berlin-2024)** | 3rd Place | SNI | No Forensic, Doing Web |
 | **[Space Heroes CTF 2024](/spaceheroes-2024)** | 2nd Place | SNI | Solved All Forensics |
 | **[KMIPN VI Final - 2024](/kmipn-vi-final)** | 1st Place | KEITO | Solved All Forensics |
-| **[Technofair 11 2024 Quals - Gunadarma University](/technofair-11)** | Rank 5 | KEITO | Solved All Forensics |
-| **[Wreck IT 5.0 Junior Quals - National Cyber and Crypto Polytechnic](https://github.com/wondping0/WreckIT5.0_ElimChallenges/tree/main/School)** | AUTHOR | - | Author for Rev, Foren, Web |
+| **[Technofair 11 2024 Qualification - Gunadarma University](/technofair-11)** | Rank 5 | KEITO | Solved All Forensics |
+| **[Wreck IT 5.0 Junior Qualification - National Cyber and Crypto Polytechnic](https://github.com/wondping0/WreckIT5.0_ElimChallenges/tree/main/School)** | AUTHOR | - | Author for Rev, Foren, Web |
 | **[Wreck IT 5.0 Junior Final - National Cyber and Crypto Polytechnic](https://github.com/jonscafe/wreckit-50-jr)** | AUTHOR | - | Author for Rev, Foren, Web |
-| **[Cyber Ops Clash 2024 Quals & Final - Meta4Sec](/cyber-ops-clash-2024)** | AUTHOR | - | Only Forensics |
+| **[Cyber Ops Clash 2024 Qualification & Final - Meta4Sec](/cyber-ops-clash-2024)** | AUTHOR | - | Only Forensics |
 | **[Wani CTF 2024 - Wani Hackase, Osaka University](/wani-ctf-2024)** | Rank 15 | SNI | Solved All Forensics |
 | **[COMPFEST 16 Qualification - University of Indonesia](/compfest-2024-quals)** | Rank 6 | SNI (FLAKEITO) | Solved All Forensics |
 | **[HackToday 2024 Qualification - IPB University](/hacktoday-2024-quals)** | Rank 9 | KEITO | Solved All Forensics |
