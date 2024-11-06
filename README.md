@@ -28,7 +28,7 @@
 | **[Cyber Ops Clash 2024 Qualification & Final - Meta4Sec](/cyber-ops-clash-2024)** | - | AUTHOR | Only Forensics |
 | **[Wani CTF 2024 - Wani Hackase, Osaka University](/wani-ctf-2024)** | Rank 15 | SNI | Solved All Forensics |
 | **[COMPFEST 16 Qualification - University of Indonesia](/compfest-2024-quals)** | Rank 6 | SNI (FLAKEITO) | Solved All Forensics |
-| **[IT-Del CTF 2024 - Del Technology Institute](https://github.com/jonscafe/itdel-ctf)** | - | AUTHOR | Author for Rev and Foren |
+| **[IT-Del CTF 2024 - Del Institute of Technology](https://github.com/jonscafe/itdel-ctf)** | - | AUTHOR | Author for Rev and Foren |
 | **[HackToday 2024 Qualification - IPB University](/hacktoday-2024-quals)** | Rank 9 | KEITO | Solved All Forensics |
 | **[Gemastik XVII 2024 - Qualification](/gemastik-2024-quals)** | Rank 8 | KEITO | - |
 | **[IFEST 2024 - Padjajaran University](/ifest-2024)** | 3rd Place | SNI (FLAKEITO) | Solved All Forensics |
