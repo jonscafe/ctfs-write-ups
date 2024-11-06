@@ -8,4 +8,4 @@
 | 4  | Qual  | sandbox  | Easy | [Challenge File](http) |
 
 - Sandbox password: ``k.eii-1s-at-meta4s3c``
-- lapislegit password: ``aaa``
+- lapislegit password: ``k.eii-waz-h3re``
