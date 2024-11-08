@@ -3,6 +3,17 @@
 - **dCode**: [dCode](https://www.dcode.fr/)
 - **CTF 101** : [CTF101](https://ctf101.org/)
 
+### Playgrounds:
+- Blockchain (https://capturetheether.com/) 
+- Cryptography (https://cryptohack.org/)
+- Digital Forensics = (https://cyberdefenders.org/)
+- Pwn (https://pwn.college/)
+- Reverse Engineering (https://crackmes.one/)
+- Web Exploitation (https://portswigger.net/web-security/all-materials)
+- Playground TCP1P (https://playground.tcp1p.team/)
+- Playground ImaginaryCTF (https://imaginaryctf.org/Challenges)
+
+## Resources
 ### Web Security Notes
 
 - **S3Scanner (A tool to find open S3 buckets in AWS or other cloud providers)**: [S3Scanner](https://github.com/sa7mon/S3Scanner)
