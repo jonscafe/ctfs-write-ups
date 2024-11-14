@@ -56,7 +56,9 @@
   - [Volatility Cheat Sheet](https://blog.onfvp.com/post/volatility-cheatsheet/) / [HackMD Volatility Cheat Sheet](https://hackmd.io/@TuX-/BymMpKd0s)
   - [SQLite Viewer Online](https://sqliteviewer.app/)
   - [ArtiFast Forensic Tools](https://forensafe.com/free.html)
-- **Powerful Online Decompiler**: [Decompiler.com](https://decompiler.com/)
+- **Decompiler**:
+  - [Decompiler.com](https://decompiler.com/)
+  - [RE Toolkit](https://github.com/mentebinaria/retoolkit)
 - **PNG File Chunk Inspection**: [PNG File Chunk Inspector](https://www.nayuki.io/page/png-file-chunk-inspector)
 - **USB Forensics**:
   - [Human Interface Devices (HID) Data](https://wiki.osdev.org/USB_Human_Interface_Devices)
