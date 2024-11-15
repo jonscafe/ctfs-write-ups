@@ -6,7 +6,7 @@
 ### Playgrounds:
 - Blockchain (https://capturetheether.com/) 
 - Cryptography (https://cryptohack.org/)
-- Digital Forensics = (https://cyberdefenders.org/)
+- Digital Forensics (https://cyberdefenders.org/)
 - Pwn (https://pwn.college/)
 - Reverse Engineering (https://crackmes.one/)
 - Web Exploitation (https://portswigger.net/web-security/all-materials)
