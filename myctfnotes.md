@@ -73,3 +73,9 @@
 - **Blockchain Investigation**: [Arkham Intelligence](https://www.arkhamintelligence.com/)
 - **GEOINT (Geospatial Intelligence)**: [GeoSpy AI](https://geospy.ai/)
 - **OSINT Smart Framework**: [OSINT Smart Framework](https://start.me/p/lL98AO/osint-smart-framework)
+
+### Reverse Engineering Notes
+- **Decompiler**:
+  - [Decompiler.com](https://decompiler.com/)
+  - [RE Toolkit](https://github.com/mentebinaria/retoolkit)
+  - [Ghidra](https://ghidra-sre.org/)
