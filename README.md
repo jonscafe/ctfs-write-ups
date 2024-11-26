@@ -37,3 +37,4 @@
 | **[COMPFEST 16 Final - University of Indonesia](/compfest-2024-final)** | 1st Place | SNI (FLAKEITO) | Solved All Forensics |
 | **[Cyber Jawara International 2024](/cyberjawara-international-2024)** | 1st Place | TCP1P x SNI x MAGER | Solved All Forensics |
 | **[Hology 2024 Final - Brawijaya University](/hology-2024-final)** | - | UPSOLVE | Solved All Forensics |
+| **[SNI CTF 2024 - SNI Cybersecurity Team](https://github.com/serikatnewbie/sni-ctf-2024)** | - | Challenge Author | Author for pf-ing (Foren) and my-seniors (OSINT) |
