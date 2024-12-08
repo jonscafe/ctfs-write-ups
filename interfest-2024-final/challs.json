@@ -1,0 +1,137 @@
+{
+    "data": {
+        "binary": [
+            {
+                "category": "binary",
+                "description": "Role Escalation, Try to 'suntik' :)\r\n\r\n~ Kira",
+                "files": [
+                    "/files/2902c3a01b7dedd18e9049c9d5464004/smith?token=eyJ1c2VyX2lkIjoyMSwidGVhbV9pZCI6MTcsImZpbGVfaWQiOjE2fQ.Z1UyjA.PL2P7ySN-sPjeWAKwA7ddWel3A4",
+                    "/files/d03789ef58ebc0532c8f3780b159aab2/blacklist.txt?token=eyJ1c2VyX2lkIjoyMSwidGVhbV9pZCI6MTcsImZpbGVfaWQiOjE5fQ.Z1UyjA.bp7T0XpMpPIDZ5gp35G1Pflyu10"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 17,
+                "name": "Smith",
+                "points": 925,
+                "solves": null
+            },
+            {
+                "category": "binary",
+                "description": "<br>\r\n\r\n<p align=\"justify\"> Under the cloak of night, Higan, the unmatched ninja, had silenced the council\u2019s defenses with ruthless efficiency. Now, in the heart of the fortress, two ancient doors loomed before him, etched with eerie symbols that flickered with a dark energy.</p>\r\n\r\nAuthor: **owankanobae & scorch**",
+                "files": [
+                    "/files/d95501266737ea7a0178863b50c07d53/higanv2?token=eyJ1c2VyX2lkIjoyMSwidGVhbV9pZCI6MTcsImZpbGVfaWQiOjEyfQ.Z1UyjA._5DsKQ6bvA0whLd0zCmUwMdBHPs",
+                    "/files/bfb00e281a0a2a2960ecb1b84fc469fe/libc.so.6?token=eyJ1c2VyX2lkIjoyMSwidGVhbV9pZCI6MTcsImZpbGVfaWQiOjEzfQ.Z1UyjA.agnf2SbOOZ-gmjLN_VOOffbwtcs"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 14,
+                "name": "Higan",
+                "points": 988,
+                "solves": null
+            }
+        ],
+        "cryptography": [
+            {
+                "category": "cryptography",
+                "description": "forestyctf{wnxlofuygktlznezyngxeqfyofrzitktqsysquitkt}\r\n\r\n~ keith",
+                "files": [],
+                "hints": [
+                    "It's patristocrat, don't forget to give it some space"
+                ],
+                "id": 21,
+                "name": "Patriot cat",
+                "points": 892,
+                "solves": null
+            },
+            {
+                "category": "cryptography",
+                "description": "**M**arcus have **d**one **5** **r**eplies **s**ince this **a**fternoon\r\n\r\n~ keith",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 12,
+                "name": "Marcus said",
+                "points": 853,
+                "solves": null
+            },
+            {
+                "category": "cryptography",
+                "description": "uI3vU5jE5u]9|i.at3at rg rq6dq6at3at<\r\n\r\n~ ztxey",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 18,
+                "name": "X0R3D",
+                "points": 757,
+                "solves": null
+            }
+        ],
+        "osint": [
+            {
+                "category": "osint",
+                "description": "a seemingly ordinary image file (JPEG). However, upon further exploration, the file stores metadata that contains hidden information. asked to find and extract metadata-related information such as author, software version, and other hidden data that leads to a geolocation coordinate that can be used to locate the image.\r\n\r\n~ NAD",
+                "files": [
+                    "/files/4095b0fcaf6fb6964e1e9a6013b1f8f7/CTF_OSINT_METADATA_EXTRACTION.png?token=eyJ1c2VyX2lkIjoyMSwidGVhbV9pZCI6MTcsImZpbGVfaWQiOjE0fQ.Z1UyjA.UMcDufrTPnGQ1qpY8_iFy722lkg"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 15,
+                "name": "METADATA EXTRACTION",
+                "points": 808,
+                "solves": null
+            },
+            {
+                "category": "osint",
+                "description": "One must break encryption and steganography to find the ANSWER hidden in geolocation data, images, and scattered time patterns.\r\n\r\n~ NAD",
+                "files": [
+                    "/files/4186da4498afb146e394a505bd2c5a36/OSINT_ASEAN.png?token=eyJ1c2VyX2lkIjoyMSwidGVhbV9pZCI6MTcsImZpbGVfaWQiOjExfQ.Z1UyjA.YOTXywMes9ag-M-jCtOQlGT4VMY"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 13,
+                "name": "Cari Sendiri!",
+                "points": 892,
+                "solves": null
+            }
+        ],
+        "reverse engineering": [
+            {
+                "category": "reverse engineering",
+                "description": "The program displays a random string when run. Participants must find the decryption logic of the string by unpacking the algorithm in a binary file.\r\n\r\n~ NAD",
+                "files": [
+                    "/files/79d130aff836f28e3d621abcd5558e1e/StringDecryption_CTF_ReverseEngine.bin?token=eyJ1c2VyX2lkIjoyMSwidGVhbV9pZCI6MTcsImZpbGVfaWQiOjE1fQ.Z1UyjA.KCGhabQF-gm0n1qpKZBJ9_heLN8"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 16,
+                "name": "YNKTS!",
+                "points": 892,
+                "solves": null
+            },
+            {
+                "category": "reverse engineering",
+                "description": "The mystical forest's guardian has encrypted a secret phrase to protect its treasures. Your task is to reverse engineer the binary, decode the encrypted magic phrase from the provided binary file, and input the correct phrase to unlock the flag. The phrase must be alphanumeric with optional underscores. \r\n\r\n**Beware** *tampering with the binary or brute-forcing will fail due to checksum validation*. \r\n\r\nCan you uncover the secret?",
+                "files": [
+                    "/files/c70cb896da8021d263aff626b646b83d/magic?token=eyJ1c2VyX2lkIjoyMSwidGVhbV9pZCI6MTcsImZpbGVfaWQiOjE3fQ.Z1UyjA.kYX3ClPwsWF5uC6qD-u34ZKLY1I",
+                    "/files/f74e2679e38614c07e1a3193647b27d6/magic_phrase.bin?token=eyJ1c2VyX2lkIjoyMSwidGVhbV9pZCI6MTcsImZpbGVfaWQiOjE4fQ.Z1UyjA.tCXeFZcCYp2D56Ye0bxypCVK7o8"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 20,
+                "name": "Ring HI",
+                "points": 988,
+                "solves": null
+            }
+        ]
+    },
+    "title": "INTERFEST CTF",
+    "url": "http://interforestctf.com"
+}
