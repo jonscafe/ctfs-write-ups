@@ -39,3 +39,4 @@
 | **[Hology 2024 Final - Brawijaya University](/hology-2024-final)** | - | UPSOLVE | Solved All Forensics |
 | **[SNI CTF 2024 - SNI Cybersecurity Team](https://github.com/serikatnewbie/sni-ctf-2024)** | - | Challenge Author | Author for pf-ing (Foren) and my-seniors (OSINT) |
 | **[Interfest 2024 Quals - Telkom University](/interfest-2024-quals)** | Rank 6 | SNI (FLAKEITO) | - |
+| **[Interfest 2024 Final - Telkom University](/interfest-2024-final)** | N/A | SNI (FLAKEITO) | except Pwn |
