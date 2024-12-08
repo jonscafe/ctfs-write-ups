@@ -1,0 +1,162 @@
+{
+    "data": {
+        "binary": [
+            {
+                "category": "binary",
+                "description": "Real or Fake, it's your choice!\r\n\r\n~ Wzrd.",
+                "files": [
+                    "/files/69c9f4acdc4470c05ad451466fa900ed/chall?token=eyJ1c2VyX2lkIjozMiwidGVhbV9pZCI6MTcsImZpbGVfaWQiOjh9.Z0HInw.gzw1ALeHTACE5aKkcQBryOVyq1s"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 10,
+                "name": "Baby PWN",
+                "points": 265,
+                "solves": null
+            },
+            {
+                "category": "binary",
+                "description": "Another ez chall today\r\n\r\n~ Wzrd.",
+                "files": [
+                    "/files/dcab6b4598157b151cb2ed2255d2c949/challenge?token=eyJ1c2VyX2lkIjozMiwidGVhbV9pZCI6MTcsImZpbGVfaWQiOjl9.Z0HInw.h19PijU_t_QztSrqoXTn6Wnq1AE"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 11,
+                "name": "Warmup",
+                "points": 490,
+                "solves": null
+            }
+        ],
+        "cryptography": [
+            {
+                "category": "cryptography",
+                "description": "Say my name\r\n\r\n~ keith",
+                "files": [
+                    "/files/dfdb7075818146b0edca17a09eeaa18e/encoded.txt?token=eyJ1c2VyX2lkIjozMiwidGVhbV9pZCI6MTcsImZpbGVfaWQiOjV9.Z0HInw.YJRCytsROycR0e2QYVVUue0v1QI"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 7,
+                "name": "EZ cipher",
+                "points": 172,
+                "solves": null
+            },
+            {
+                "category": "cryptography",
+                "description": "Just brackets\r\n\r\n~ keith",
+                "files": [
+                    "/files/036b72477b543e796dcddcf93482aa80/encoded.txt?token=eyJ1c2VyX2lkIjozMiwidGVhbV9pZCI6MTcsImZpbGVfaWQiOjN9.Z0HInw.x61mf3MTyhTVN_tpQJzHgB-n1sU"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 4,
+                "name": "Brackets",
+                "points": 208,
+                "solves": null
+            }
+        ],
+        "cryptography ": [
+            {
+                "category": "cryptography ",
+                "description": "Emotions are not so random\r\n\r\n~ keith",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 5,
+                "name": "Mood Swings",
+                "points": 166,
+                "solves": null
+            },
+            {
+                "category": "cryptography ",
+                "description": "Caesar get a message from dottie, but it got dashed out by fire\r\n\r\nDottie like to use emoji so much, there is some recent emoji that she used the most\r\n\r\n<img src=\"http://188.166.215.13/files/cb7fe921d54061b1db0eae5e3d83f4b5/Recent_Emoji.jpeg\" alt=\"Recent emoji\" width=\"300\" height=\"300\">\r\n\r\n~ keith",
+                "files": [
+                    "/files/397401fe35901d118ab150c4cc4efd7d/encoded.txt?token=eyJ1c2VyX2lkIjozMiwidGVhbV9pZCI6MTcsImZpbGVfaWQiOjR9.Z0HInw.-3UWQB42MmCb4eG_D8wnd28GKVk"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 6,
+                "name": "Unspoken Words",
+                "points": 500,
+                "solves": null
+            }
+        ],
+        "forensics": [
+            {
+                "category": "forensics",
+                "description": "You have found a message from nowhere, but it sounds like some weird frequency\r\n\r\n~ keith",
+                "files": [
+                    "/files/44f9734a433d41c26546f7b2cd2fb11e/data.zip?token=eyJ1c2VyX2lkIjozMiwidGVhbV9pZCI6MTcsImZpbGVfaWQiOjZ9.Z0HInw.YVFYAzq2EQM4pdvUruifxeQZIq4"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 8,
+                "name": "Weird Frequency ",
+                "points": 179,
+                "solves": null
+            },
+            {
+                "category": "forensics",
+                "description": "Relax.\r\n\r\n~ keith",
+                "files": [
+                    "/files/32c9cd227adee8aec8c34f1e4b2e5e96/Audio.wav?token=eyJ1c2VyX2lkIjozMiwidGVhbV9pZCI6MTcsImZpbGVfaWQiOjd9.Z0HInw.fUbggPG8Mdk-15UcToPDzJsqoYY"
+                ],
+                "hints": [
+                    "-"
+                ],
+                "id": 9,
+                "name": "Mind Games",
+                "points": 254,
+                "solves": null
+            }
+        ],
+        "web": [
+            {
+                "category": "web",
+                "description": "\"What's happened to me,\" he thought. It was no cookies\r\n\r\n~ keith",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 2,
+                "name": "Metamorphosis",
+                "points": 262,
+                "solves": null
+            },
+            {
+                "category": "web",
+                "description": "\ud83e\udd6d\ud83e\udd6d\ud83e\udd6d\r\n\r\n~ keith\r\n\r\nhttp://157.66.55.21:8302/\r\n\r\nhttp://157.66.55.21:8306/\r\n\r\nhttp://157.66.55.21:8307/\r\n\r\nhttp://157.66.55.21:8308/",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 1,
+                "name": "Suntik mangga",
+                "points": 294,
+                "solves": null
+            },
+            {
+                "category": "web",
+                "description": "There are letters that never been posted\r\n\r\nOr it can be posted remotely, i guess?\r\n\r\n~ keith",
+                "files": [],
+                "hints": [
+                    "-"
+                ],
+                "id": 3,
+                "name": "Kafka's Diary",
+                "points": 499,
+                "solves": null
+            }
+        ]
+    },
+    "title": "INTERFEST CTF",
+    "url": "http://interforestctf.com"
+}
