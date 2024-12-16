@@ -13,7 +13,7 @@
 
 | Event | Rank | Team | Note |
 |------------------------------|--------------|--------------|--------------|
-| **[HTB University 2023](/HTB_Univ2023)** | Participant | PoltekSSN | - |
+| **[HackTheBox University CTF 2023](/HTB_Univ2023)** | Participant | PoltekSSN | - |
 | **[Cyberyolk 2023](/cyberyolk-2023)** | Only REV | Individual | - |
 | **[FindIT 2024 Qualification](/findit-2024-quals)** | Rank 14 | IDK | Solved All Forensics |
 | **[FindIT 2024 Final](/findit-2024-final)** | Rank 8 | IDK | Solved All Forensics |
@@ -40,4 +40,4 @@
 | **[SNI CTF 2024 - SNI Cybersecurity Team](https://github.com/serikatnewbie/sni-ctf-2024)** | - | Challenge Author | Author for pf-ing (Foren) and my-seniors (OSINT) |
 | **[Interfest 2024 Quals - Telkom University](/interfest-2024-quals)** | Rank 6 | SNI (FLAKEITO) | - |
 | **[Interfest 2024 Final - Telkom University](/interfest-2024-final)** | Rank 5 | SNI (FLAKEITO) | except Pwn |
-| **[HackTheBox University CTF 2024](/hackthebox-uni-2024)** | - | PoltekSSN | 3/4 Forensic |
+| **[HackTheBox University CTF 2024](/hackthebox-uni-2024)** | Participant | PoltekSSN | 3/4 Forensic |
