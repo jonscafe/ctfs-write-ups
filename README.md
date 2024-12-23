@@ -41,4 +41,4 @@
 | **[Interfest 2024 Quals - Telkom University](/interfest-2024-quals)** | Rank 6 | SNI (FLAKEITO) | - |
 | **[Interfest 2024 Final - Telkom University](/interfest-2024-final)** | Rank 5 | SNI (FLAKEITO) | except Pwn |
 | **[HackTheBox University CTF 2024](/hackthebox-uni-2024)** | Participant | PoltekSSN | 3/4 Forensic |
-| **[Backdoor CTF 2024 - InfosecIITR](/backdoor-ctf-2024)** | 1st Place | ADA INDONESIA COY | 3/5 Forensic |
+| **[Backdoor CTF 2024 - InfoSecIITR](/backdoor-ctf-2024)** | 1st Place | ADA INDONESIA COY | 3/5 Forensic |
