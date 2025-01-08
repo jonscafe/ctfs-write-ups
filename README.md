@@ -43,3 +43,4 @@
 | **[HackTheBox University CTF 2024](/hackthebox-uni-2024)** | Participant | PoltekSSN | 3/4 Forensic |
 | **[Backdoor CTF 2024 - InfoSecIITR](/backdoor-ctf-2024)** | 1st Place | ADA INDONESIA COY | 3/5 Forensic |
 | **[Wargames MY 2024](/wargames-my-2024)** | Rank 25 | SNI | Solved All Forensics |
+| **[NETCOMP 3.0 Quals - 2025](/netcomp-3.0-2024)** | - | UPSOLVE | X11 Protocol |
