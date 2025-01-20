@@ -44,4 +44,4 @@
 | **[Backdoor CTF 2024 - InfoSecIITR](/backdoor-ctf-2024)** | 1st Place | ADA INDONESIA COY | 3/5 Forensic |
 | **[Wargames MY 2024](/wargames-my-2024)** | Rank 25 | SNI | Solved All Forensic |
 | **[NETCOMP 3.0 Quals - 2025](/netcomp-3.0-2024)** | - | UPSOLVE | X11 Protocol |
-| **[Cyber Jawara National 2024 - Qualification](/cj-nasional-2024)** | Rank 15 | SNI (FLAKEITO) | Solved All Forensic |
+| **[Cyber Jawara National 2024 - Qualification](/cj-nasional-2024)** | - | SNI (FLAKEITO) | Solved All Forensic |
