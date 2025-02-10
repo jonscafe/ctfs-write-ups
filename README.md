@@ -46,3 +46,4 @@
 | **[NETCOMP 3.0 Quals - 2025](/netcomp-3.0-2024)** | - | UPSOLVE | X11 Protocol |
 | **[Cyber Jawara National 2024 - Qualification](/cj-nasional-2024)** | - | SNI (FLAKEITO) | Solved All Forensic |
 | **Cyber Jawara National 2024 - Final** | - | Challenge Author | Sandboxed Debugging (Forensic) |
+| **[ARA 6.0 2025 - Qualification](/ara-2025-quals)** | - | Tempe Bacem | Solved All Forensic |
