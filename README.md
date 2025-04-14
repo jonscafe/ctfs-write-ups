@@ -2,10 +2,11 @@
 - This repo contains my journey on Capture the Flag. All write-up on this repo is created by me or my team when competing in national/international CTF events. Some of the write-up/PoC on this repo is my challenges that i created for CTF events.
 - MyCTFNotes: contains cheat sheets/notes from websites
 - I hope this repo will help you to study about CTF especially in the field of Digital Forensics (which im into it)
+- Blog: https://keii.codes/
 
 ## about-me
 - Student at NCCP, XX Batch, Takin Cryptographical Software Engineering field of interest on Cryptography Engineering Major
-- Usually playing with [SNI Cybersecurity Team](https://serikatnewbie.me) or with my friend [itoid](https://github.com/lightningitoid) as KEITO team
+- Usually playing with [SNI Cybersecurity Team](https://serikatnewbie.vercel.app) or with my friend [itoid](https://github.com/lightningitoid) as KEITO team
 - Mainly playing on Forensics, so you will find more write-ups on Forensic related topics
 - Also sometimes tryin to solve Rev/Web 
 
