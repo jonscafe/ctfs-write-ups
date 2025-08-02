@@ -48,3 +48,4 @@
 | **[Cyber Jawara National 2024 - Qualification](/cj-nasional-2024)** | - | SNI (FLAKEITO) | Solved All Forensic |
 | **[Cyber Jawara National 2024 - Final](https://keii.codes/blog/sandboxed-debugging)** | - | Challenge Author | Sandboxed Debugging (Forensic) |
 | **[ARA 6.0 2025 - Qualification](/ara-2025-quals)** | Rank 6 | Tempe Bacem | Solved All Forensic |
+| **[Olimpiade Vokasi Indonesia 2025 - Final - Attack Defense](/olivia-x-2025)** | 2nd Place | KEITO & Jacob | 2 Web & 1 NC Chall |
