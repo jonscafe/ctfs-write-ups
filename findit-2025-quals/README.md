@@ -1,0 +1,1 @@
+FIND IT 2025 Quals, UGM
