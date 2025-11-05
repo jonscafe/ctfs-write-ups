@@ -53,3 +53,4 @@
 | **[ITFEST 2025 - Qualification](/itfest-2025-quals)** | - | KEITO | Solved All Forensic |
 | **[Olimpiade Vokasi Indonesia 2025 - Final - Attack Defense](/olivia-x-2025)** | 2nd Place | KEITO & Jacob | 2 Web & 1 NC Chall |
 | **[INTECHFEST 2025](https://github.com/TCP1P/INTECHFEST-2025-Public)** | - | Challenge Author | shiunji ouka, interesting (Forensic) |
+| **[GEMASTIK XVIII 2025 - Final - Attack Defense](https://github.com/rayhanhanaputra/gemastik18-final)** | - | Challenge Author | cdn, blogpost |
