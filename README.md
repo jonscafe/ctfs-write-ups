@@ -5,8 +5,6 @@
 - Blog: https://keii.codes/
 
 ## about-me
-- Graduated from National Cyber and Crypto Polytechnic, XX Batch Cryptographical Software Engineering field of interest on Cryptography Engineering Major.
-- Currently serving the country at the National Cyber and Crypto Agency.
 - Mainly playing on Forensics, so you will find more write-ups on Forensic related topics.
 - Also sometimes trying to solve Rev/Web .
 
