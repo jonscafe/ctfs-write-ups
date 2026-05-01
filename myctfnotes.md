@@ -67,6 +67,7 @@
   - [Android Bluetooth](https://forensafe.com/blogs/Android_Bluetooth.html)
   - [USB Descriptor and Request Parser](https://eleccelerator.com/usbdescreqparser/)
   - [USB HID Usage Tables](https://www.usb.org/sites/default/files/documents/hut1_12v2.pdf)
+  - All In One Documentation (Artifacts, Tools, File Structure, etc.): https://blog.forensicresearch.kr/m/
 
 ### OSINT (Open-Source Intelligence) Notes
 
