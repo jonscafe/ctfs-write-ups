@@ -2,7 +2,7 @@
 - This repo contains my journey on Capture the Flag. All write-up on this repo is created by me or my team when competing in national/international CTF events. Some of the write-up/PoC on this repo is my challenges that i created for CTF events.
 - **[MyCTFNotes](myctfnotes.md)**: contains cheat sheets/notes from websites
 - I hope this repo will help you to study about CTF especially in the field of Digital Forensics (which im into it)
-- Blog: https://keii.codes/
+- Blog: https://keii.malwr.es/
 
 ## about-me
 - Mainly playing on Forensics, so you will find more write-ups on Forensic related topics.
